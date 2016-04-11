@@ -1,0 +1,105 @@
+
+html, body {
+	font-family: 'Poiret One', cursive;	
+	color: white;
+	background: #8e8d8e !important;
+}
+
+h1 {
+	text-align: center;
+	background: #8e8d8e;
+	font-size: 80px;
+	font-family: 'Pacifico';
+	margin-bottom: 50px;
+}
+
+#dialog{
+	color: black;
+}
+
+.simon {
+	margin-right: auto;
+	margin-left: auto;
+	height: 300px;
+	width: 60%;
+}
+
+.wrapper {
+	width: 540px;
+	margin: auto;
+	background: #8e8d8e;
+}
+
+.pieslice:active {
+	background: #fff600;
+}
+
+#myButton{
+	font-size: 20px;
+	border-radius: 10px;
+	background: #605f60;
+	border: 3px solid #8E8D8E;
+	padding: 5px;
+}
+
+#round,
+#start{
+	width: 132px;
+	font-size: 20px;
+	border-radius: 10px;
+	background: #605f60;
+	border: 3px solid #8E8D8E;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+.game-info{
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
+
+.game-info button:hover {
+	background: #0C7489;
+}
+
+.red, .blue, .purple, .green {
+	height: 290px;
+	border: inherit;
+	border-radius: 150px 150px 150px 150px;
+	position: absolute;
+	text-indent: 10000px;
+	cursor: pointer;
+}
+
+.red:hover, .blue:hover, .purple:hover, .green:hover {
+	opacity: 0.4;
+}
+
+.red {
+	background: #d31302;
+	clip: rect(0px, 300px, 150px, 150px);
+	width: 296px;
+}
+
+.blue {
+	background: blue;
+	clip: rect(0px, 150px, 150px, 0px);
+	width: 300px;
+}
+
+.purple {
+	background: purple;
+	clip: rect(150px, 150px, 300px, 0px);
+	width: 300px;
+}
+
+.green {
+	background: lime;
+	clip: rect(150px,300px, 300px, 150px);
+	width: 296px;
+}
+
+.active{
+	background: #fff600;
+}
